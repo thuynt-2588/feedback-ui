@@ -1,0 +1,27 @@
+.feedback {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgb(0 0 0 /30%);
+  width: 400px;
+  padding: 32px;
+  margin: auto;
+  margin-top: 100px;
+
+  h4 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  &-rating {
+    margin: 30px 0;
+  }
+
+  button {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #302d2b;
+    border-radius: 4px;
+    padding: 10px 20px;
+  }
+}
